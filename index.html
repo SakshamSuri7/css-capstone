@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio Website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+  <!-- Favicon...icon of the website -->
+  <link rel="icon" type="image/png" href="./images/favicon.png">
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <section id="header" class="fixed-top">
+    <nav class="px-2 sticky-top pt-0 mt-2">
+      <div class="container">
+        <div class="nav">
+          <p class="logo"><a href="#">Saksham's Portfolio</a> </p>
+          <ul class="nav_link-wrap">
+            <li><a class="nav_link" href="#about">About</a></li>
+            <li><a class="nav_link" href="#edu">Education</a></li>
+            <li><a class="nav_link" href="#exp">Experience</a></li>
+            <li><a class="nav_link" href="#proj">Projects</a></li>
+            <li><a class="nav_link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+  <!-- <section id="hero" class=" mb-5">
+    <div class="p-5 ">
+      <div class="container px-4 pt-5 mt-5">
+        <div class="row me-3 mb-5">
+          <div class="col-lg-6 col-sm-12 mx-2 ps-3">
+            <h1 class="mt-5">Hello, My Name is <br><span>Saksham Suri</span></h1>
+            <p class="mt-4">Motivated and ambitious Engineering student specializing in Computer Engineering (COE) at
+              Delhi Technological University (DTU).</p>
+          </div>
+          <div class="col-lg-4 col-sm-12">
+            <img src="./images/profile.jpg" class=" mx-lg-auto img-fluid" alt="progImg" width="500" height="500">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <section id="hero">
+    <div class="firstSection">
+      <div class="left">
+        <h1>Hello, My Name is <br><span>Saksham Suri</span></h1>
+        <p >Motivated and ambitious Engineering student specializing in Computer Engineering (COE) at
+          Delhi Technological University (DTU).</p>
+      </div>
+      <div class="right">
+        <img src="./images/profile.jpg"  alt="profileImg" >
+      </div>
+    </div>
+    
+  </section>
+
+  <section id="about">
+    <div class="my-5">
+      <div class="p-5 text-center">
+        <div class="container py-5">
+          <h2 class="mb-5">Know More about me</h2>
+          <p class="col-lg-8 mx-auto lead">
+            Having a solid foundation in core engineering principles and a keen interest in the field of computer
+            science, I am dedicated to gaining hands-on experience and acquiring knowledge in areas such as software
+            development, data structures, algorithms, and computer networks.As a proactive learner, I actively seek
+            opportunities to expand my knowledge and stay updated with the latest industry trends. Overall, I bring a
+            strong work ethic, technical proficiency, and a passion for learning. With my dedication and enthusiasm, I
+            am committed to making a meaningful impact in the field of computer engineering and advancing technological
+            advancements.
+          </p>
+          <div class="d-inline-flex gap-2 mb-2 mt-3 flex">
+            <a href="https://www.linkedin.com/in/saksham-suri-959996223/" target="_blank">
+              <button class="btn btn-light  px-4 " type="button"><img src="./images/linkedin.png" alt="linkedin"
+                  width="30"> LinkedIn</button>
+            </a>
+            <a href="https://github.com/SakshamSuri7" target="_blank">
+              <button class="btn btn-light  px-4 " type="button"><img src="./images/Github.png" alt="github"
+                  width="30"> GitHub</button>
+            </a>
+          </div>
+          <br>
+          <div class="d-inline-flex gap-2 mb-5 mt-3 flex">
+            <a href="https://www.codingninjas.com/studio/profile/0291d045-f69b-4251-8905-dc786498a827" target="_blank">
+              <button class="btn btn-light px-4 " type="button"><img src="./images/CN.jpeg" alt="Gfg"
+                  width="30"> CodeStudio</button>
+            </a>
+            <a href="https://leetcode.com/surisaksham07/" target="_blank">
+              <button class="btn btn-light px-4 " type="button"><img src="./images/leetcode.png" alt="leetcode"
+                  width="30"> LeetCode</button>
+            </a>
+
+            <a href="https://auth.geeksforgeeks.org/user/surisak6ttm/practice/" target="_blank">
+              <button class="btn btn-light px-4 " type="button"><img src="./images/gfg.png" alt="Gfg"
+                  width="30"> GeeksForGeeks</button>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="edu">
+    <div class="container px-4 py-5 " id="featured-3">
+      <h2 class="pt-3 pb-3 border-bottom text-center mt-5">Educational Qualifications</h2>
+
+      <div class="row py-5 row-cols-1 row-cols-lg-3 text-center">
+        <div class="feature col">
+          <div class="feature-icon  mb-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+              class="bi bi-graph-up-arrow" viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M0 0h1v15h15v1H0V0Zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5Z" />
+            </svg>
+          </div>
+          <h3 class="fs-2 mb-3 ">College</h3>
+          <p>Bachelor of Technology(B.Tech.) <br> <span>Delhi Technological University,Delhi</span> <br>Branch: Computer
+            Science <br>(2021-2025)</p>
+
+        </div>
+        <div class="feature col">
+          <div class="feature-icon  mb-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+              class="bi bi-graph-up-arrow" viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M0 0h1v15h15v1H0V0Zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5Z" />
+            </svg>
+          </div>
+          <h3 class="fs-2 mb-3">Class XII</h3>
+          <p>Central Board of Secondary Education<br><span>Hansraj Model School,Delhi</span> <br>Stream: Non-Medical,
+            PCM <br>(2021)</p>
+        </div>
+        <div class="feature col">
+          <div class="feature-icon mb-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+              class="bi bi-graph-up-arrow" viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M0 0h1v15h15v1H0V0Zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5Z" />
+            </svg>
+          </div>
+          <h3 class="fs-2 mb-3 ">Class X</h3>
+          <p>Central Board of Secondary Education<br> <span>Hansraj Model School,Delhi</span> <br>(2019)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="exp">
+    <div class="spacer-lg"></div>
+    <div class="container my-5">
+      <h2 class="text-start ">Experience</h2>
+
+      <ul class="job-list mb-5">
+        <li>
+          <div class="job-wrapper ">
+            <p class="job-date">(April 2023 - June 2023)</p>
+            <div class="job-content">
+              <h3 class="job-title fs-4">USIP Intern, Lab on Wheels Program</h3>
+              <p class="job-place">Center of Extension and Outreach, DTU</p>
+              <div class="spacer-xs"></div>
+              <p>
+                <ul>
+                  <li> Delivered engaging and comprehensive basic computer skills to government school students
+                    while sharpening my skills in education and technology.</li>
+                  <li>Developed strong public speaking skills, demonstrated leadership and teaching skills, improved
+                    my presentation skills and communication skills</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+        </li>
+      </ul>
+
+    </div>
+
+  </section>
+
+  <section id="proj" class="gradient-background">
+    <div class="contain mt-4 p-3">
+      <h2 class="pt-5 pb-1 mt-5">Projects and Selected Works</h2>
+      <div class="work mt-5 mb-5 ">
+
+        
+        <div class="work-item mt-3 text-center">
+          <a href="https://sakshamsuri7.github.io/Amazon-css/"
+            target="_blank">
+            <img
+              src="./images/amazon.png"
+              height="180px" width="300px" class="p-3 mb-5">
+          </a>
+          <h3>Amazon Clone website</h3>
+          <p>The objective of this project is to create a clone of the home page of the Amazon website.The project aims to replicate the overall design and layout of the Amazon home page, showcasing various features of amazon.com. Developed using HTML and CSS only.</p>
+        </div>
+
+        <div class="work-item mt-3 text-center">
+          <a href="#">
+            <img src="./images/portfolio.png" height="180px" width="300px" class="p-3 mb-5">
+          </a>
+          <h3>Portfolio Website</h3>
+          <p>Created a personal portfolio website showcasing my skills, experience, and accomplishments.The webpage will
+            also serve as an online platform to highlight the my work and attract potential clients or employers.
+            Developed using HTML, CSS, and the Bootstrap framework.</p>
+        </div>
+
+        <div class="work-item mt-3 text-center">
+          <a href="https://sakshamsuri7.github.io/TinDog/" target="_blank">
+            <img src="./images/TinDog.png" height="180px" width="300px" class="p-3 mb-5">
+          </a>
+          <h3>Tindog</h3>
+          <p>Created a responsive webpage for TinDog (Tinder clone) targeting dog owners and enthusiasts who are
+            interested in connecting their furry friends for playdates and potential matches. The landing website is
+            developed using HTML, CSS, and the Bootstrap framework.</p>
+        </div>
+
+        <div class="work-item mt-3 text-center">
+          <a href="https://docs.google.com/document/d/1O7nNRwHN1G1z-eNP1TKIt2xm6K_werDEJBlubBZRits/edit"
+            target="_blank">
+            <img
+              src="https://streaming.humix.com/poster/EWDDnOXFPQujnYSB/7458c0d646b9cf4b7a9bd15ae087101db8120b7094c819d2c71a5049a0fad663_fVTjkJ.jpg"
+              height="180px" width="300px" class="p-3 mb-5">
+          </a>
+          <h3>School DBMS</h3>
+          <p>The purpose of this project was to develop a system so that data of the students can be easily
+            accessed,updated and manipulated.Developed using Python-MySQL connectivity in which python is used as a
+            front-end language and MySQL as back end.</p>
+        </div>
+
+        <div class="work-item mt-3 text-center">
+          <a href="https://sakshamsuri7.github.io/MoveIt/" target="_blank">
+            <img src="./images/MoveIt.png" height="180px" width="300px" class="p-3 mb-5">
+          </a>
+          <h3>Move It</h3>
+          <p>Created a responsive webpage that will serve as an online platform to promote and showcase MoveIt's
+            services, attracting potential customers who are seeking reliable and efficient transportation solutions.
+            Developed using HTML, CSS, and the Bootstrap framework.</p>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+
+
+  <section id="contact">
+    <div class="container p-5">
+      <div class="contact-box p-5 mb-3">
+        <h2>Contact Me</h2>
+        <p class="fs-5">Get in touch</p>
+      </div>
+      <div class="contact-content mb-5">
+        <div class="contact-row m-3">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+            <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+          </svg><h4>&nbsp; Saksham Suri</h4>
+        </div>
+        <div class="contact-row m-3">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+          </svg><h4><a href="mailto:surisaksham07@gmail.com">&nbsp; surisaksham07@gmail.com</a> </h4>
+        </div>
+        <div class="contact-row m-3">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+            <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+          </svg><h4>&nbsp; +91 8178582311</h4>
+        </div>
+        <div class="contact-row m-3">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+          </svg><h4>&nbsp; Punjabi Bagh Extension, New Delhi-110026</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="footer">
+    <div class="container px-5 py-3">
+      <footer class="px-5 my-4">
+        <p class="text-center">Created By <span>Saksham Suri</span>  | &copy; 2023 All Rights Reserved.</p>
+      </footer>
+    </div>
+  </section>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
